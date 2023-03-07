@@ -77,4 +77,5 @@
 - Rekognition (Software as a Service)
 - https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
 
-**Note - This content is from the Ultimate AWS Certified Solutions Architect Associate SAA-C03 Udemy Course by Stephane Maarek**
+**Note - This content is from the [Ultimate AWS Certified Solutions Architect Associate SAA-C03](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/) Udemy Course by Stephane Maarek**
+
