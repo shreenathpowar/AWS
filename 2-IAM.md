@@ -45,3 +45,47 @@ IAM Policies are used to give permission to Users/Groups.
    - **Condition:** conditions for when this policy is in effect (optional)
 
    ![image](https://user-images.githubusercontent.com/73632896/223774251-72bf19b1-5e9c-456a-94df-fce5f33fe3fc.png)
+   
+  #### IAM – Password Policy
+
+  Strong passwords = higher security for your account
+  - In AWS, you can setup a password policy:
+    - Set a minimum password length
+    - Require specific character types:
+      - including uppercase letters
+      - lowercase letters
+      - numbers
+      - non-alphanumeric characters
+    - Allow all IAM users to change their own passwords
+    - Require users to change their password after some time (password expiration)
+    - Prevent password re-use
+
+  #### Multi Factor Authentication - MFA
+  
+  - Users have access to your account and can possibly change configurations or delete resources in your AWS account
+  - You want to protect your Root Accounts and IAM users
+  - MFA = password you know + security device you own
+      ![image](https://user-images.githubusercontent.com/73632896/223782033-b0dd13c7-9a88-4a12-81e2-60edbf9861e3.png)
+  - Main benefit of MFA: if a password is stolen or hacked, the account is not compromised
+ 
+  #### MFA devices options in AWS
+  
+  1. **Virtual MFA Device** - Support for multiple tokens on a single device.
+
+
+     ![image](https://user-images.githubusercontent.com/73632896/223782742-64a49448-f4b7-404b-b771-139f9a1abdb0.png)
+
+  2. **Universal 2nd Factor (U2F) Security Key** - Support for multiple root and IAM users using a single security key
+
+
+     ![image](https://user-images.githubusercontent.com/73632896/223782917-e4c51b2e-aa87-4679-b98d-b43736745985.png)
+
+  3. **Hardware Key Fob MFA Device**
+
+
+     ![image](https://user-images.githubusercontent.com/73632896/223783032-1ea5c33f-0eda-4a2b-967b-6d919ae8207d.png)
+
+  4. **Hardware Key Fob MFA Device for AWS GovCloud (US)**
+
+
+     ![image](https://user-images.githubusercontent.com/73632896/223783115-b42ff5b2-ed0a-48f9-9e92-ff7ff297af21.png)
