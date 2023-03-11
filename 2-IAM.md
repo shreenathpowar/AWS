@@ -123,8 +123,8 @@ IAM Policies are used to give permission to Users/Groups.
   
     ##### AWS CLI
     
-    1. create access key for command line interface.
-    2. configure aws-cli
+    1. **create access key for command line interface.**
+    2. **configure aws-cli**
 
       C:\Users\shreenath>aws configure
       AWS Access Key ID [None]: <Access Key ID>
@@ -132,7 +132,7 @@ IAM Policies are used to give permission to Users/Groups.
       Default region name [None]: ap-south-1
       Default output format [None]:
 
-    3. get IAM users list.
+    3. **get IAM users list.**
 
       C:\Users\shreenath>aws iam list-users
       {
@@ -147,6 +147,13 @@ IAM Policies are used to give permission to Users/Groups.
               }
           ]
        }
+       
+     4. **In case of no permission for list-users operation**
+     ```
+     C:\Users\shreenath>aws iam list-users
+
+     An error occurred (AccessDenied) when calling the ListUsers operation: User: arn:aws:iam::<Account ID>:user/shreenath is not authorized to perform: iam:ListUsers      on resource: arn:aws:iam::<Account ID>:user/ because no identity-based policy allows the iam:ListUsers action
+     ```
  
   #### What’s the AWS SDK?
   
