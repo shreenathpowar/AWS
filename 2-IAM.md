@@ -222,3 +222,5 @@ IAM Policies are used to give permission to Users/Groups.
 - Access Keys: access AWS using the CLI or SDK
 - Audit: IAM Credential Reports & IAM Access Advisor
 
+
+**Note - This content is from the [Ultimate AWS Certified Solutions Architect Associate SAA-C03](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/) Udemy Course by Stephane Maarek**
