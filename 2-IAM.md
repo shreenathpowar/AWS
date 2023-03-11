@@ -2,6 +2,9 @@
 
 ## IAM
 
+![image](https://user-images.githubusercontent.com/73632896/224480007-6740246d-00d2-40cf-b223-97b99675aea0.png)
+
+
 ### IAM: Users & Groups
 
 Users and Groups are created so that users can run specific services only not all which can cause cost.
