@@ -121,6 +121,33 @@ IAM Policies are used to give permission to Users/Groups.
 
   ![image](https://user-images.githubusercontent.com/73632896/224469061-21027dc9-5da7-401e-80ca-771055c7bb96.png)
   
+    ##### AWS CLI
+    
+    1. create access key for command line interface.
+    2. configure aws-cli
+
+      C:\Users\shreenath>aws configure
+      AWS Access Key ID [None]: <Access Key ID>
+      AWS Secret Access Key [None]: <Secret Access Key>
+      Default region name [None]: ap-south-1
+      Default output format [None]:
+
+    3. get IAM users list.
+
+      C:\Users\shreenath>aws iam list-users
+      {
+          "Users": [
+              {
+                  "Path": "/",
+                  "UserName": "shreenath",
+                  "UserId": "<User ID>",
+                  "Arn": "arn:aws:iam::<Account ID>:user/shreenath",
+                  "CreateDate": "2023-03-08T16:01:48+00:00",
+                  "PasswordLastUsed": "2023-03-11T06:53:57+00:00"
+              }
+          ]
+       }
+ 
   #### What’s the AWS SDK?
   
   - AWS Software Development Kit (AWS SDK)
