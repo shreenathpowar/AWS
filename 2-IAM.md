@@ -154,6 +154,16 @@ IAM Policies are used to give permission to Users/Groups.
 
      An error occurred (AccessDenied) when calling the ListUsers operation: User: arn:aws:iam::<Account ID>:user/shreenath is not authorized to perform: iam:ListUsers      on resource: arn:aws:iam::<Account ID>:user/ because no identity-based policy allows the iam:ListUsers action
      ```
+     
+     ##### AWS CloudShell
+     
+     AWS CloudShell is a browser-based shell that gives you command-line access to your AWS resources in the selected AWS region. AWS CloudShell comes pre-installed with popular tools for resource management and creation.
+     You have the same credentials as you used to log in to the console.
+     
+     available regions: https://docs.aws.amazon.com/general/latest/gr/cloudshell.html
+     
+     ![image](https://user-images.githubusercontent.com/73632896/224472154-1bc23bc7-5fd6-41e0-89a4-58b115391251.png)
+
  
   #### What’s the AWS SDK?
   
