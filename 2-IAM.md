@@ -89,3 +89,50 @@ IAM Policies are used to give permission to Users/Groups.
 
 
      ![image](https://user-images.githubusercontent.com/73632896/223783115-b42ff5b2-ed0a-48f9-9e92-ff7ff297af21.png)
+     
+     
+### How can users access AWS ?
+
+- To access AWS, you have three options:
+  - AWS Management Console (protected by password + MFA)
+  - AWS Command Line Interface (CLI): protected by access keys
+  - AWS Software Developer Kit (SDK) - for code: protected by access keys
+- Access Keys are generated through the AWS Console
+- Users manage their own access keys
+- Access Keys are secret, just like a password. Don’t share them
+- Access Key ID ~= username
+- Secret Access Key ~= password
+
+  #### Example (Fake) Access Keys
+  
+  ![image](https://user-images.githubusercontent.com/73632896/224468974-84771a83-b61f-44cb-b9f6-ac5d710945bf.png)
+  
+  - Access key ID: AKIASK4E37PV4983d6C
+  - Secret Access Key: AZPN3zojWozWCndIjhB0Unh8239a1bzbzO5fqqkZq
+  - Remember: don’t share your access keys
+
+  #### What’s the AWS CLI?
+  
+  - A tool that enables you to interact with AWS services using commands in your command-line shell
+  - Direct access to the public APIs of AWS services
+  - You can develop scripts to manage your resources
+  - It’s open-source [(https://aws.amazon.com/cli/)](https://aws.amazon.com/cli/)
+  - Alternative to using AWS Management Console
+
+  ![image](https://user-images.githubusercontent.com/73632896/224469061-21027dc9-5da7-401e-80ca-771055c7bb96.png)
+  
+  #### What’s the AWS SDK?
+  
+  - AWS Software Development Kit (AWS SDK)
+  - Language-specific APIs (set of libraries)
+  - Enables you to access and manage AWS services programmatically
+  - Embedded within your application
+  - Supports
+    - SDKs (JavaScript, Python, PHP, .NET, Ruby, Java, Go, Node.js, C++)
+    - Mobile SDKs (Android, iOS, …)
+    - IoT Device SDKs (Embedded C, Arduino, …)
+  - Example: AWS CLI is built on AWS SDK for Python
+
+  ![image](https://user-images.githubusercontent.com/73632896/224469179-9e53cd02-2c3f-476e-bca3-9e6810d2b199.png)
+
+
